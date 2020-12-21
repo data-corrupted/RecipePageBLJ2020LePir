@@ -51,6 +51,12 @@ button:focus {
   font-size: 1.4em;
 }
 
+.nav-buttons {
+  font-size: 2em;
+  border: white solid 1px;
+  height: 30px;
+}
+
 .container {
   background: rgba(255, 255, 255, 0.26);
   padding-right: 25px;
