@@ -62,15 +62,20 @@ button:focus {
 
 .pdf {
   color: rgb(199, 199, 199);
-  text-decoration: underline;
-  text-align: center;
-  width: 200px;
 }
 
-a:hover {
+.pdf:hover {
   color: white;
   text-decoration: none;
-  text-decoration: underline;
+}
+
+.pdf > img {
+  width: 25px;
+  filter: none;
+}
+
+.icon {
+  width: 25px;
 }
 
 .container {
@@ -105,14 +110,11 @@ hr {
 
 .footer {
   text-align: center;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.vl {
+.center-footer {
   border-right: solid white 1px;
-  height: 100%;
-}
-
-.footer > div > div > div {
-  padding-top: 15px;
+  border-left: solid white 1px;
 }
