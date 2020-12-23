@@ -46,7 +46,6 @@ button {
   border: unset;
   background-color: unset;
   color: white;
-  border: 1px solid white;
 }
 
 button:focus {
@@ -56,7 +55,6 @@ button:focus {
 .nav-buttons {
   font-size: 1.5em;
   font-family: Amatic SC;
-  border: white solid 1px;
   height: 30px;
 }
 
@@ -117,4 +115,24 @@ hr {
 .center-footer {
   border-right: solid white 1px;
   border-left: solid white 1px;
+}
+
+@media (max-width: 415px) {
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    padding-top: 28px;
+  }
+
+  .nav-buttons {
+    height: 50px;
+  }
+}
+
+@media (max-width: 286px) {
+  h1 {
+    font-size: 3em;
+  }
 }
